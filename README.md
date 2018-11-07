@@ -84,9 +84,11 @@ This has got us some of the way but it's only highlighted the time and we want' 
 
 <details>
 <summary>Solution</summary>
+
 ```bash
 date | grep -oP '\d{2}:\d{2}'
 ```
+
 </details>
 
 Now we've got our command, let's use it to create a script.  Try entering your solution into a file by invoking `nano showTime.sh`, saving the file using Ctrl+o and then exiting with Ctrl+x.
