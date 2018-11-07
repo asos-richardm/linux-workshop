@@ -105,6 +105,7 @@ Note that this is very similar to executing a powershell script, the main differ
 
 <details>
 <summary>Solution</summary>
+
 ```bash
 chmod u+x showTime.sh
 ```
@@ -115,6 +116,7 @@ To break this down for you:
  - The groups these can be assigned to are user/group/others
  - u+x means add the execute permission (represented by x) to the user who owns the file (represented by u)
  - The final argument is the file to change.
+
 </details>
 
 Now you've changed the permissions, if you re-run the script using `./showTime.sh` you should see it print the time.  We've now seen how to pipe the output of one program into another and how to create a very simple script file and set permissions on it.
@@ -156,6 +158,7 @@ Configuration files in Linux are usually found in /etc see if you can find the f
 <summary>Setting location</summary>
 The setting name is PasswordAuthentication and the value needs changing to no
 </details>
+
 
 Now we've changed the settings, we'll need to restart the service for the changes to take effect. You can do this using the following command:
 
