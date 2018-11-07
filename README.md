@@ -4,9 +4,11 @@
 #### I keep getting this weird error message "blk_update_request: I/O error, dev fd0, sector 0"
 Sorry this is my fault I didn't see this error until just before the workshop.  Your choices are to either ignore it or entering the follow commands:
 
+```bash
 sudo rmmod floppy
 echo "blacklist floppy" | sudo tee /etc/modprobe.d/blacklist-floppy.conf
 sudo dpkg-reconfigure initramfs-tool
+```
 
 Worth pointing out that this is a problem with Hyper-V setting up a floppy drive that doesn't exist rather than anything you'd experience on a real Linux system.
 
