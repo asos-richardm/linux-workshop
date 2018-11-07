@@ -138,9 +138,9 @@ Display the 1st line of every file that ends with .log in the /var/log directory
 
 <details>
 <summary>Hints</summary>
-Step 1: List all .log files in /var/log
-Step 2: Find out how to use the `head` command to display the first line
-Step 3: Use the `xargs` command to take the output of ls and use it as the parameters (not the input) for a different command.
+1.List all .log files in /var/log
+2.Find out how to use the `head` command to display the first line
+3.Use the `xargs` command to take the output of ls and use it as the parameters (not the input) for a different command.
 </details>
 <details>
 <summary>Solution</summary>
